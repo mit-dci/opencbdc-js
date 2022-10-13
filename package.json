@@ -1,0 +1,45 @@
+{
+  "name": "opencbdc-js",
+  "version": "0.0.1",
+  "description": "An javascript module for interacting with the opencbdc-tx atomizer and 2pc environments",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js",
+    "eslint": "eslint . && eslint src/**/*.js && eslint test/**/*.js",
+    "precommit": "eslint"
+  },
+  "author": "MIT Digital Currency Initiative & Federal Reserve Bank of Boston",
+  "license": "MIT",
+  "dependencies": {
+    "@enumatech/secp256k1-js": "git+https://github.com/project-hamilton/secp256k1-js",
+    "bech32": "^2.0.0",
+    "bip-schnorr": "^0.6.3",
+    "buffer": "^6.0.3",
+    "chai": "^4.3.4",
+    "crypto": "^1.0.1",
+    "mocha": "^9.0.2",
+    "net": "^1.0.2",
+    "secp256k1": "^4.0.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mit-dci/opencbdc-js.git"
+  },
+  "keywords": [
+    "opencbdc",
+    "cbdc",
+    "node.js",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/mit-dci/opencbdc-js/issues"
+  },
+  "homepage": "https://github.com/mit-dci/opencbdc-js#readme",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "pre-commit": "^1.2.2"
+  }
+}
