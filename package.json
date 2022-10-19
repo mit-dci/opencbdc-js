@@ -1,5 +1,5 @@
 {
-  "name": "opencbdc-js",
+  "name": "@mit-dci/opencbdc",
   "version": "0.0.1",
   "description": "An javascript module for interacting with the opencbdc-tx atomizer and 2pc environments",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "author": "MIT Digital Currency Initiative & Federal Reserve Bank of Boston",
   "license": "MIT",
   "dependencies": {
-    "@enumatech/secp256k1-js": "git+https://github.com/project-hamilton/secp256k1-js",
+    "@enumatech/secp256k1-js": "git+https://github.com/project-hamilton/secp256k1-js.git",
     "bech32": "^2.0.0",
     "bip-schnorr": "^0.6.3",
     "buffer": "^6.0.3",
