@@ -1,6 +1,6 @@
 {
   "name": "@mit-dci/opencbdc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An javascript module for interacting with the opencbdc-tx atomizer and 2pc environments",
   "main": "index.js",
   "scripts": {
